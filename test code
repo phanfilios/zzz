@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang-"es">
+<head>
+     <meta charest-"UTF-8">
+     <meta name="viewport" content-"width-device-width, initial-scale-1.0">
+     <title>Portafolio/title>
+     <ink rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+         <nav>
+            <ul>
+                 <li><a href="#">inicial</a></li>
+                  <li><a href="#">Sobre mí</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <setion class="HUMAN">
+            <hi>welcome to my portafolio<hi>
+            <p>Here you will find the section of my greatest experimental experiments.</p>
+            <a href="#" class="btm"> Ver mas</a>
+         </section>
+
+         <section class="about">
+         <h2> about my mi</h2>
+         <p>I am a strange human passionate about quantum computing and biomedicine, and those lustful neural implants. I don't have a degree, master's, or doctorate yet; I have empirical knowledge in Python, C+++, and C#.</p>
+         <a href="#" class="btn">learn more</a>
+      </section>
+
+      <section class="projects">
+          <h2>my project</h2>
+            <div class="project-grid">
+                 <div class="project-card">
+                    <img src="project1.jpg" alt="Projects 1">
+                    <h3>Projects 1</h3>
+                    <p>description of projects 1</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Proyecto 2">
+                    <h3>Project 2</h3>
+                    <p>description of projects 2</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Proyecto 3">
+                    <h3>Project 3</h3>
+                    <p>description of project 3</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; -2023 Portafolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
